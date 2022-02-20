@@ -1,0 +1,871 @@
+/* Код для подключения шрифта в /css/stylename.css */
+
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProBold";
+    src: url("../fonts/GothamProBold/GothamProBold.eot");
+    src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProBlack";
+    src: url("../fonts/GothamProBlack/GothamProBlack.eot");
+    src: url("../fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+    url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProItalic";
+    src: url("../fonts/GothamProItalic/GothamProItalic.eot");
+    src: url("../fonts/GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProItalic/GothamProItalic.woff") format("woff"),
+    url("../fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProMedium";
+    src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+    src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProLight";
+    src: url("../fonts/GothamProLight/GothamProLight.eot");
+    src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProLight/GothamProLight.woff") format("woff"),
+    url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProMediumItalic";
+    src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
+    src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
+    url("../fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProLightItalic";
+    src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot");
+    src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
+    url("../fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProBoldItalic";
+    src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
+    src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
+    url("../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProBlackItalic";
+    src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
+    src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
+    url("../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* montserrat-italic - latin */
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url('http://hb.bizmrg.com/fonts/montserrat/600.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/600.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Medium'), local('Montserrat-Medium'), url('http://hb.bizmrg.com/fonts/montserrat/500.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url('http://hb.bizmrg.com/fonts/montserrat/500i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/500i.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Italic'), local('Montserrat-Italic'), url('http://hb.bizmrg.com/fonts/montserrat/400i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/400i.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Thin'), local('Montserrat-Thin'), url('http://hb.bizmrg.com/fonts/montserrat/100.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'), url('http://hb.bizmrg.com/fonts/montserrat/200i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/200i.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'), url('http://hb.bizmrg.com/fonts/montserrat/200.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/200.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Light'), local('Montserrat-Light'), url('http://hb.bizmrg.com/fonts/montserrat/300.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('http://hb.bizmrg.com/fonts/montserrat/400.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Black'), local('Montserrat-Black'), url('http://hb.bizmrg.com/fonts/montserrat/900.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/900.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url('http://hb.bizmrg.com/fonts/montserrat/600i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/600i.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url('http://hb.bizmrg.com/fonts/montserrat/700i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/700i.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'), url('http://hb.bizmrg.com/fonts/montserrat/100i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/100i.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('http://hb.bizmrg.com/fonts/montserrat/700.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Black Italic'), local('Montserrat-BlackItalic'), url('http://hb.bizmrg.com/fonts/montserrat/900i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/900i.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('http://hb.bizmrg.com/fonts/montserrat/800.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/800.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url('http://hb.bizmrg.com/fonts/montserrat/300i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/300i.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'), url('http://hb.bizmrg.com/fonts/montserrat/800i.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/800i.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+  html{
+      box-sizing: border-box;
+  }
+  *, *::before, *::after{
+      box-sizing: inherit;
+  }
+
+body{
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+
+}
+/* header start*/
+
+.header{
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.wrapper{
+    max-width: 970px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    vertical-align: top;
+    margin: 15px 0 0 0;
+}
+
+/* Nav 1*/
+.header_nav{
+    font-family: "GothamProLight";
+    font-style: normal;
+    color: black;
+}
+
+.header_link{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px 45px 0 0;
+}
+
+.btn{
+    vertical-align: top;
+    margin: 23px 0 0 0;
+    font-family: "GothamProLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 123.4%;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 10px;
+    
+    border: 1px solid #000
+
+}
+
+.header_molot-svg{
+    margin-left: 290px;
+    margin-top: 34px;
+}
+
+/*Nav 1 stop*/
+
+
+/* header stop*/
+
+
+/* MainIntro start*/
+
+.intro{
+    min-height: 100vh;
+    background: url(../images/Rectangle\ 2.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 1000;
+}
+
+    
+    .intro_title{
+    margin-top: 162px;
+    max-width: 408px ;
+    font-family: "GothamProLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 123.4%;
+    color: black;
+
+    z-index: 1000;
+    }
+    
+    
+    /* Nav 2*/
+.nav{
+        max-width: 970px;
+        margin: 0 auto;
+    
+        display: flex;
+    }
+
+.intro_nav{
+        font-family: "GothamProLight";
+        font-style: normal;
+        font-weight: normal;
+
+        font-size: 13.5px;
+        margin-top: 30px;
+        z-index: 1000;
+        }
+        
+.btn_{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+
+    padding: 11px 31px;
+        
+    background-color: #212121;
+    border: 3px solid #212121;
+    box-sizing: border-box;
+}
+
+.btn_:hover{
+    background-color: #fff;
+    color: #212121
+}
+        
+.btn_i{
+     margin-left: 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 11px 31px;
+
+    border: 3px solid #616161;
+    box-sizing: border-box;
+}
+
+.btn_i:hover{
+    background-color: #212121;
+    color: white;
+}
+
+    /* Nav 2 stop*/
+ 
+    /* Catalog */
+
+.catalog{
+    max-width: 970px;
+    margin: 0 auto;
+    
+    display: flex;
+}
+
+.intro_catalog{
+    font-family: "GothamProLight";
+    font-style: normal;
+
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 123.4%;
+
+    color: #000000;
+    
+    position: relative;
+    top: 200px;
+    margin-left: 320px;
+    }
+
+  .catalog2{
+    max-width: 970px;
+    margin: 0 auto;
+    
+    display: flex;
+}
+
+.catalog-011{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 123.4%;
+    /* or 74px */
+    
+    letter-spacing: 0.005em;
+    
+    color: #000000;
+
+    position: absolute;
+    top: 642px;
+    margin-left: 118px;
+}
+.catalog-01{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 123.4%;
+    /* or 49px */
+    
+    letter-spacing: 0.005em;
+    
+    color: #000000;
+    max-width: 652px;
+
+    position: absolute;
+    top: 658px;
+    margin-left: 216px;
+}
+
+.catalog-021{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 123.4%;
+
+    letter-spacing: 0.005em;
+
+    color: #000000;
+
+    position: absolute;
+    top: 796px;
+    margin-left: 118px;
+}
+.catalog-02{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 123.4%;
+    max-width: 329px;
+    
+    color: #000000;
+
+    position: absolute;
+    top: 814px;
+    margin-left: 216px;
+}
+
+.catalog-031{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 123.4%;
+
+    letter-spacing: 0.005em;
+
+    color: #000000;
+
+    position: absolute;
+    top: 900px;
+    margin-left: 118px;
+}
+.catalog-03{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 123.4%;
+    max-width: 261px;
+    
+    color: #000000;
+
+    position: absolute;
+    top: 918px;
+    margin-left: 216px;
+}
+
+.scales{
+    position: absolute;
+    top: 650px;
+    margin-left: 673.72px
+}
+
+.catalog_link{
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 123.4%;
+
+    text-decoration-line: underline;
+
+    color: #000000;
+    position: absolute;
+    top: 1093px;
+    margin-left: 446px;
+}
+
+.catalog_link:hover{
+    color: #A6A6A6;
+}
+
+.catalog_how{
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 123.4%;
+    /* or 49px */
+
+
+
+    color: #000000;
+    position: absolute;
+    top: 1295px;
+    margin-left: 293px;
+}
+
+.molotok1{
+    position: absolute;
+    top: 1415px;
+    margin-left: 169px;
+}    
+
+.search_UR{
+    font-family: "GothamProMedium";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 123.4%;
+
+    letter-spacing: 0.005em;
+
+    color: #000000;
+    position: absolute;
+    top: 1438px;
+    margin-left: 459px;
+}
+
+.search_UR-p{
+    max-width: 405px;
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 123.4%;
+    /* or 21px */
+
+    letter-spacing: 0.005em;
+
+    color: #000000;
+    position: absolute;
+    top: 1483px;
+    margin-left: 459px;
+}
+
+.search-btn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 123.4%;
+    
+    letter-spacing: 0.005em;
+    
+    color: #A6A6A6;
+    border: 1.5px solid #A6A6A6;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1618px;
+    margin-left: 459px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+}
+
+.search-btn:hover{
+    color: black;
+}
+
+
+.search_UR1{
+    font-family: "GothamProMedium";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 123.4%;
+
+    letter-spacing: 0.005em;
+
+    color: #000000;
+    position: absolute;
+    top: 1765px;
+    margin-left: 159px;
+}
+
+.search_UR1-p{
+    max-width: 405px;
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 123.4%;
+    /* or 21px */
+
+    letter-spacing: 0.005em;
+
+    color: #000000;
+    position: absolute;
+    top: 1810px;
+    margin-left: 159px;
+}
+
+.search-btn1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 123.4%;
+    
+    letter-spacing: 0.005em;
+    
+    color: #A6A6A6;
+    border: 1.5px solid #A6A6A6;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1939px;
+    margin-left: 159px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+}
+
+.search-btn1:hover{
+    color: black;
+}
+
+.judge{
+    position: absolute;
+    top: 1732px;
+    margin-left: 628px;
+}
+
+
+ /* Catalog stop*/
+
+
+.advantages_one{
+    font-family: 'GothamProLight';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 123.4%;
+    /* or 49px */
+
+    letter-spacing: 0.005em;
+
+    color: #000000;
+    position: absolute;
+    top: 2094px;
+    margin-left: 328px;
+}
+
+.experiance{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 123.4%;
+
+    text-transform: uppercase;
+
+    color: #000000;
+    position: absolute;
+    top: 2246px;
+    margin-left: 50px;
+}
+
+.experiance_description{
+    font-family: "GothamProLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 116.4%;
+
+    color: #000000; 
+    position: absolute;
+    max-width: 435px;
+    top: 2329px;
+    margin-left: 50px;
+}
+
+.approach{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 123.4%;
+
+    text-transform: uppercase;
+
+    color: #000000;
+    position: absolute;
+    top: 2578px;
+    margin-left: 539px;
+}
+
+.approach_description{
+    font-family: "GothamProLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 116.4%;
+
+    color: #000000; 
+    position: absolute;
+    max-width: 435px;
+    top: 2658px;
+    margin-left: 539px;
+}
+
+.technology{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 123.4%;
+
+    text-transform: uppercase;
+
+    color: #000000;
+    position: absolute;
+    top: 2907px;
+    margin-left: 50px;
+}
+
+.technology_description{
+    font-family: "GothamProLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 116.4%;
+
+    color: #000000; 
+    position: absolute;
+    max-width: 435px;
+    top: 2987px;
+    margin-left: 50px;
+}
+
+
+
+
+
+.end{
+    max-width: 970px;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.end_line2{
+    position: absolute;
+    top: 3359px;
+    right: 208px;
+}
+
+.end_line1{
+    position: absolute;
+    top: 3384px;
+    right: 208px;
+}
+
+.end_line3{
+    position: absolute;
+    top: 3699px;
+    right: 208px;
+}
+
+.end_line4{
+    position: absolute;
+    top: 3637px;
+    right: 208px;
+}
+
+.end_logo{
+    position: absolute;
+    top: 3912px;
+    
+}
+
+.end_logo1{
+    position: absolute;
+    top: 3925px;
+    margin-left: 47px;
+}
+
+.end_people{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 123.4%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: 0.005em;
+
+    color: #555555;
+
+    position: absolute;
+    top: 3921px;
+    margin-left: 460px;
+}
+
+.end_people1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 123.4%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: 0.005em;
+
+    color: #555555;
+
+    position: absolute;
+    top: 3921px;
+    margin-left: 855px;
+}
+
+
+.end_people2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 123.4%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: 0.005em;
+
+    color: #555555;
+
+    position: absolute;
+    top: 3961px;
+    margin-left: 460px;
+}
+
+.enter{
+    position: absolute;
+    top: 4000px;
+}
